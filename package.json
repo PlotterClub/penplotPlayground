@@ -1,14 +1,10 @@
 {
-  "name": "penplot",
+  "name": "penplotPlayground",
   "version": "2.0.0",
   "description": "a lightweight tool for generative 2D line art",
   "main": "./lib/penplot.js",
   "license": "MIT",
-  "author": {
-    "name": "Matt DesLauriers",
-    "email": "dave.des@gmail.com",
-    "url": "https://github.com/mattdesl"
-  },
+  "author": "Matt DesLauriers <dave.des@gmail.com> (https://github.com/mattdesl)",
   "browser": {
     "./lib/create-canvas": "./lib/create-canvas/browser.js"
   },
@@ -27,6 +23,7 @@
     "bound-points": "^1.0.0",
     "budo": "^10.0.3",
     "bunny": "^1.0.1",
+    "canvas": "^1.6.5",
     "cdt2d": "^1.0.0",
     "chalk": "^1.1.3",
     "clamp": "^1.0.1",
@@ -59,6 +56,7 @@
     "new-array": "^1.0.0",
     "object-assign": "^4.1.1",
     "parse-unit": "^1.0.1",
+    "penplot": "2.0.0",
     "point-in-triangle": "^1.0.1",
     "primitive-cube": "^2.0.0",
     "quantize-vertices": "^1.0.2",
@@ -120,5 +118,10 @@
   },
   "optionalDependencies": {
     "canvas": "^1.6.5"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "example",
+    "lib": "lib"
   }
 }
