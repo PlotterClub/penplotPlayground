@@ -59,7 +59,8 @@ export default function createPlot (context, dimensions) {
     centers.push([x, y]);
   }
 
-  const circles = centers.map(coord => drawCircles(width, height, ...coord), );
+  const circles = centers.map(coord => drawCircles(...coord));
+  // const otherCircles = centers.map(coord => drawCircles(width / 2, height / 2));
   const lines = Array.prototype.concat.apply([], circles);
 
 
