@@ -14,7 +14,7 @@ Check out the Penplot repo on [@mattdesl](https://github.com/mattdesl)'s github 
 
 ## Printing on your Plotter Machine
 
-If you own an AxiDraw v3, you can print these SVGs using [Inkscape](https://inkscape.org/en/). [@danisaza](https://github.com/danisaza) wrote a line de-duplication utility, which drastically reduces the plotting time.
+If you own an [AxiDraw v3](https://shop.evilmadscientist.com/productsmenu/846), you can print these SVGs using [Inkscape](https://inkscape.org/en/). [@danisaza](https://github.com/danisaza) wrote a line de-duplication utility, which drastically reduces the plotting time.
 
 ## Watch It Go
 
